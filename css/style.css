@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    overflow-x: hidden;
+    background: #f3f3f3;
+    width: 100%;
+}
+
+
+.navbar-brand, .nav-link {
+    margin: 0 1em ;
+    color: rgb(43, 50, 56);
+}
+
+.jumbotron {
+    height: 92.7vh;
+    background-image: url('https://res.cloudinary.com/gozzycloud/image/upload/e_art:al_dente,o_58/v1573930216/coding-768x384_drgaay.jpg');
+    object-fit: contain;
+    background-repeat: repeat;
+}
+
+.containeri {
+    margin: 1em 1.5em;
+}
+
+.services {
+    margin: 0 1em;
+}
+
+.service-img {
+    align-self: center;
+    width: 4em;
+    height: 4em;
+    margin: 1.5em 0 0 0;
+}
+
+.projects {
+    background:  rgb(228, 230, 230);
+}
+
+.proj {
+    justify-content: center;
+    align-self: center;
+}
+
+.cardi {
+    margin: 30px;
+    width: 20em;
+}
+
+.cardi:hover {
+    transform: scale(1.05);
+    transition: 0.8s;
+}
+
+.card-text {
+    font-size: 1em;
+    padding: -2em;
+}
+
+.contact {
+    margin: -2em 0 0 0;
+}
+
+h4:hover {
+    text-decoration: underline #221111;
+}
+
+.fab, .fa{
+    color: #221111;
+    margin: 0.7em;
+    font-size: 1.5em;
+}
+
+.fab:hover, .fa:hover{
+    color: #24525aab;
+}
+
+.email a {
+    text-align: center;
+    text-decoration: none;
+    align-self: auto;
+    align-items: center;
+}
+
+
+footer p {
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 988px) {
+    .contact {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .info {
+        margin-top: 6em;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .info {
+        margin-top: 11em;
+    }
+
+    .info .lead {
+        font-size: 2em;
+    }
+ 
+    .info .display-5 {
+        font-size: 3em;
+        font-weight: 300;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+   .info .lead {
+       font-size: 1.2em;
+   }
+
+   .info .display-5 {
+       font-size: 1.5em;
+       font-weight: 300;
+   }
+
+   .info {
+       margin-top: 11em;
+   }
+}
