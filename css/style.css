@@ -23,7 +23,7 @@ body {
 }
 
 .jumbotron {
-    height: 92.7vh;
+    height: 100vh;
     background-image: url('https://res.cloudinary.com/gozzycloud/image/upload/e_art:al_dente,o_58/v1573930216/coding-768x384_drgaay.jpg');
     object-fit: contain;
     background-repeat: repeat;
@@ -104,21 +104,16 @@ footer p {
     }
 }
 
-@media only screen and (max-width: 425px) {
-    body {
-        overflow-x: hidden;
-    }
-}
 
 @media only screen and (min-width: 768px) {
     .info {
-        margin-top: 6em;
+        margin-top: 12em;
     }
 }
 
 @media only screen and (min-width:1024px) {
     .info {
-        margin-top: 11em;
+        margin-top: 13em;
     }
 
     .info .lead {
